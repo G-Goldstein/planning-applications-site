@@ -39,6 +39,7 @@ class Results extends Component {
 					hasMore={this.state.hasMore}
 					threshold={500}
 					key={this.props.search}
+					loader={<div className='text-center p-3 text-muted'>Loading...</div>}
 				>
 					{applications}
 				</InfiniteScroll>
